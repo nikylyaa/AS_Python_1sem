@@ -1,2 +1,3 @@
-if __name__ == "__main__":
-    pass
+text = input().split()
+for x in text :
+    print(x,'-',text.count(x))
